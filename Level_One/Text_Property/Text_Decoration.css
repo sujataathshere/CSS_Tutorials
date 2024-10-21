@@ -1,0 +1,15 @@
+#one {
+    text-decoration: underline;
+}
+
+#two {
+    text-decoration: overline;
+}
+
+#three {
+    text-decoration: line-through;
+}
+
+#four {
+    text-decoration: none;
+}
