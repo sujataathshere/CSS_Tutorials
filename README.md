@@ -50,7 +50,18 @@ h4{
 1. Universal Selector `*{}`
 - Set everything through the asterik
 - Eg. Text color, Font, etc.
-
+```css
+* {
+    color: blue;
+}
+```
 2. Element Selector `h1{}`
+- Apply color on element
+- Eg. headings, paragraphs
+```css
+p {
+    color: green;
+}
+```
 3. Id Selector `#myId{}`
 4. Class Selector `.myClass{}`
