@@ -64,5 +64,20 @@ p {
 }
 ```
 3. Id Selector `#myId{}`
- 
+- Used to apply style on a single element
+- Use Id for single element only
+- Eg. `<h4 id="headingOne">This is heading1</h4>`
+```css
+#headingOne{
+    color:greenyellow;
+}
+```
 4. Class Selector `.myClass{}`
+- Used to apply style on a multiple element
+- Use class for multiple element
+- Eg. `<h4 class="myClass">This is heading1</h4>`
+```css
+.myClass{
+    color:greenyellow;
+}
+```
