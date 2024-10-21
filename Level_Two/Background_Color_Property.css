@@ -1,0 +1,22 @@
+/* body{
+    background-color: aliceblue;
+} */
+
+/* Using RGB setting the bg color */
+/* body{ 
+    background-color: rgb(255,255,00);
+} */
+
+/* Using Hexadecimal setting the bg color */
+body{
+    background-color: #00ffff;
+}
+
+/* Using HSL setting the bg color */
+/* body{
+    background-color: ;
+} */
+ 
+p{
+    color:darkblue;
+}

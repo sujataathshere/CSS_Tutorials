@@ -1,0 +1,8 @@
+/* Universal Selector */
+* {
+    color: blue;
+}
+/* Element Selector */
+p {
+    color: green;
+}
