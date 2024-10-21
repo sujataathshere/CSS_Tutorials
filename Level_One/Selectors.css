@@ -1,0 +1,18 @@
+/* Universal Selector */
+* {
+    color: blue;
+}
+/* Element Selector */
+p {
+    color: red;
+}
+/* Id Selector */
+#headingOne{
+    color:greenyellow;
+}
+#headingTwo{
+    color: chartreuse;
+}
+#headingThree{
+    color: gold;
+}
