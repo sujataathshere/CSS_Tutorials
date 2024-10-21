@@ -45,3 +45,12 @@ h4{
 
 3. HSL -> %
 - Eg. 175',70%,44%
+
+## Selectors
+1. Universal Selector `*{}`
+- Set everything through the asterik
+- Eg. Text color, Font, etc.
+
+2. Element Selector `h1{}`
+3. Id Selector `#myId{}`
+4. Class Selector `.myClass{}`
