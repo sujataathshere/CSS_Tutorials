@@ -1,0 +1,1 @@
+## 1. Create a simple div with an id "box". Add some text content inside the div. Set its background color to blue.
