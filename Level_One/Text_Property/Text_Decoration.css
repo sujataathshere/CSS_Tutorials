@@ -1,15 +1,69 @@
-#one {
+/* Underline - Text Decoration */
+#underline {
     text-decoration: underline;
 }
-#two {
+#underline_color {
+    text-decoration: underline blue;
+}
+#underline_dotted {
+    text-decoration: underline dotted;
+}
+#underline_dotted_color {
+    text-decoration: underline dotted red;
+}
+#underline_wavy {
+    text-decoration: underline wavy;
+}
+#underline_wavy_color {
+    text-decoration: underline wavy green;
+}
+
+/* Overline - Text Decoration */
+#overline {
     text-decoration: overline;
 }
-#three {
+#overline_color {
+    text-decoration: overline rgb(248, 62, 248);
+}
+#overline_dotted {
+    text-decoration: overline dotted;
+}
+#overline_dotted_color {
+    text-decoration: overline dotted rgb(240, 68, 68);
+}
+#overline_wavy {
+    text-decoration: overline wavy;
+}
+#overline_wavy_color {
+    text-decoration: overline wavy rgb(204, 204, 7);
+}
+
+/* Line-through - Text Decoration */
+#line_through {
     text-decoration: line-through;
 }
-#four {
+#line_through_color {
+    text-decoration: line-through red;
+}
+#line_through_dotted {
+    text-decoration: line-through dotted;
+}
+#line_through_dotted_color {
+    text-decoration: line-through dotted red;
+}
+#line_through_wavy {
+    text-decoration: line-through wavy;
+}
+#line_through_wavy_color {
+    text-decoration: line-through wavy red;
+}
+
+/* None - Text Decoration */
+#none {
     text-decoration: none;
 }
-#five {
+
+/* Double underline - Text Decoration */
+#double_underline {
     text-decoration-style: double;
 }
