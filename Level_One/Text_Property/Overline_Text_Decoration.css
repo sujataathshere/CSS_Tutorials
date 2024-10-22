@@ -1,7 +1,13 @@
 #overline {
     text-decoration: overline;
 }
-
 #overline_color {
     text-decoration: overline rgb(248, 62, 248);
+}
+
+#overline_dotted {
+    text-decoration: overline dotted;
+}
+#overline_dotted_color {
+    text-decoration: overline dotted rgb(240, 68, 68);
 }
