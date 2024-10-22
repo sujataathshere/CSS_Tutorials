@@ -11,3 +11,10 @@
 #overline_dotted_color {
     text-decoration: overline dotted rgb(240, 68, 68);
 }
+
+#overline_wavy {
+    text-decoration: overline wavy;
+}
+#overline_wavy {
+    text-decoration: overline wavy rgb(204, 204, 7);
+}
