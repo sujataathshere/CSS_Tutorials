@@ -1,3 +1,7 @@
 #overline {
     text-decoration: overline;
 }
+
+#overline_color {
+    text-decoration: overline rgb(248, 62, 248);
+}
