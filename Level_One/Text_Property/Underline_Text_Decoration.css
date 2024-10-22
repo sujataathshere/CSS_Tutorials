@@ -1,3 +1,6 @@
-p {
+#dotted {
     text-decoration: underline dotted;
+}
+#wavy {
+    text-decoration: green wavy underline;
 }
