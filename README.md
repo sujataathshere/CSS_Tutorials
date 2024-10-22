@@ -82,5 +82,9 @@ p {
 }
 ```
 ## Text Properties
-1. text-align - left, center, right.
-2. text-decoration - underline, overline, line-through, none.
+1. text-align : left, center, right.
+2. text-decoration : underline, overline, line-through, none, wavy, dotted.
+3. font-weight : normal/bold/bolder/lighter OR 100-900
+- Normal/lighter:100, Bold:600, Bolder:900
+
+##
