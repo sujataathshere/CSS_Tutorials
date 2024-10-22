@@ -11,3 +11,10 @@
 #line_through_dotted_color {
     text-decoration: line-through dotted red;
 }
+
+#line_through_wavy {
+    text-decoration: line-through wavy;
+}
+#line_through_wavy_color {
+    text-decoration: line-through wavy red;
+}
