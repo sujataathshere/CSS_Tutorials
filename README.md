@@ -83,4 +83,4 @@ p {
 ```
 ## Text Properties
 1. text-align - left, center, right.
-2. text-decoration - underline, overline, line-through.
+2. text-decoration - underline, overline, line-through, none.
