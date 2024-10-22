@@ -88,5 +88,7 @@ p {
 - Normal/lighter:100, Bold:600, Bolder:900
 4. font-family
 - 5 Generic font families : Serif, Sans-serif, Cursive, Fantasy, Monospace
-
-##
+5. font-size : Absolute Unit & Relative Unit
+- Absolute Unit measure in pixels(px), km, cm, mm.
+- Nomal size of text : 16px
+- Relative Unit
