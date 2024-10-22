@@ -92,3 +92,5 @@ p {
 - Absolute Unit measure in pixels(px), km, cm, mm.
 - Nomal size of text : 16px
 - Relative Unit
+6. line-height
+7. text-transform : uppercase, lowercase, capitalize, none.
