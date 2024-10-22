@@ -4,3 +4,6 @@
 #wavy {
     text-decoration: green wavy underline;
 }
+#dotted_color {
+    text-decoration: underline dotted red;
+}
