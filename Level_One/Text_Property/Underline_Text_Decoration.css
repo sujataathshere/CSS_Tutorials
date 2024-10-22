@@ -1,12 +1,18 @@
+#plane {
+    text-decoration: underline;
+}
 #plane_color {
     text-decoration: underline blue;
 }
 #dotted {
     text-decoration: underline dotted;
 }
-#wavy {
-    text-decoration: green wavy underline;
-}
 #dotted_color {
     text-decoration: underline dotted red;
+}
+#wavy {
+    text-decoration: underline wavy;
+}
+#wavy_color {
+    text-decoration: underline wavy green;
 }
