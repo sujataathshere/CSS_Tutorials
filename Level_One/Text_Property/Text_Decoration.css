@@ -5,8 +5,8 @@
 #underline_color {
     text-decoration: underline blue;
 }
-#underline_dotted {
-    text-decoration: underline dotted;
+#underline_dashed {
+    text-decoration: underline dashed;
 }
 #underline_dotted_color {
     text-decoration: underline dotted red;
@@ -65,5 +65,5 @@
 
 /* Double underline - Text Decoration */
 #double_underline {
-    text-decoration-style: double;
+    text-decoration: underline double;
 }

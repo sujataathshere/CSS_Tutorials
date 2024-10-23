@@ -2,4 +2,4 @@
 
 ## 2. Set the font family of all the content in the document to "Times New Roman".
 
-## Create one div inside another div. Set id & text "outer" for the first one & "inner" for the second one. Set the outer div text sixe to 25px & inner div text size to 10px.
+## 3. Create one div inside another div. Set id & text "outer" for the first one & "inner" for the second one. Set the outer div text sixe to 25px & inner div text size to 10px.
