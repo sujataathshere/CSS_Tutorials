@@ -1,0 +1,21 @@
+#one {
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+#two {
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    padding: 10px 20px 30px 40px;
+}
+#three {
+    background-color: lightseagreen;
+    height: 100px;
+    width: 100px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
