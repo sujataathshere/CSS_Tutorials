@@ -2,18 +2,21 @@
     background-color: lightcoral;
     height: 100px;
     width: 100px;
+    border:2px solid black;
     margin: 20px;
 }
 #two {
     background-color: lightgreen;
     height: 100px;
     width: 100px;
+    border:2px solid black;
     margin: 10px 20px 30px 40px;
 }
 #three {
     background-color: lightseagreen;
     height: 100px;
     width: 100px;
+    border:2px solid black;
     margin-left:25px;
     margin-right:25px;
     margin-top:25px;
