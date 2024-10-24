@@ -61,3 +61,6 @@ div {
 
 4. none
 - To remove element from document flow.
+
+## Visibility
+- 

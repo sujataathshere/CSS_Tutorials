@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: greenyellow;
+    display: inline-block;
+}
+.ib {
+    background-color: crimson;
+}
+#box2 {
+    display: none;
+}
