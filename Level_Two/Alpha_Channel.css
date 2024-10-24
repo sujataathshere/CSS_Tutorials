@@ -1,0 +1,52 @@
+div {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}
+#box1 {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+#box2 {
+    background-color: rgba(0, 0, 255, 0.4);
+}
+#box3 {
+    background-color: rgba(0, 0, 255, 0.6);
+}
+#box4 {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+#box5 {
+    background-color: rgba(0, 0, 255, 1);
+}
+#box6 {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+#box7 {
+    background-color: rgba(0, 255, 0, 0.4);
+}
+#box8 {
+    background-color: rgba(0, 255, 0, 0.6);
+}
+#box9 {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+#box10 {
+    background-color: rgba(0, 255, 0, 1);
+}
+#box11 {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+#box12 {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+#box13 {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+#box14 {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+#box15 {
+    background-color: rgba(255, 0, 0, 1);
+}

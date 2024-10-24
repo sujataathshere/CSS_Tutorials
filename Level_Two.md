@@ -52,16 +52,31 @@ div {
 ## Display Property : inline / block / inline-block / none
 1. inline
 - Takes only the space required by the element. (no margin / padding)
-
+```css
+    display : inline
+```
 2. block
 - Takes full space available in width
-
+```css
+    display : block
+```
 3. inline-block
 - Similar to inline but we can set margin & padding.
-
+```css
+    display : inline-block
+```
 4. none
 - To remove element from document flow.
 - When display is set to none, no space is reserved or blocked for the element.
- 
+```css
+    display : none
+```
 ## Visibility
 - When visibility is set to none, space for the element is reserved.
+```css
+    visibility : hidden
+```
+
+## Alpha Channel - RGBA
+- Has 4 element : red(0-255), green(0-255), blue(0-255), opacity(0-1)
+- Eg. `rgba(255,0,0,0.5)`
