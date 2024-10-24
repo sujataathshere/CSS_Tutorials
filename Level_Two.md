@@ -49,3 +49,15 @@ div {
     /* Shorthand p:top right bottom left -> clockwise */
     margin:1px 2px 3px 4px;
 ```
+## Display Property : inline / block / inline-block / none
+1. inline
+- Takes only the space required by the element. (no margin / padding)
+
+2. block
+- Takes full space available in width
+
+3. inline-block
+- Similar to inline but we can set margin & padding.
+
+4. none
+- To remove element from document flow.
