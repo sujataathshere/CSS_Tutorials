@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: greenyellow;
+    display: inline-block;
+}
+.visibility {
+    background-color: rgb(240, 60, 96);
+}
+#box2 {
+    visibility: hidden;
+}

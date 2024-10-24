@@ -61,6 +61,7 @@ div {
 
 4. none
 - To remove element from document flow.
-
+- When display is set to none, no space is reserved or blocked for the element.
+ 
 ## Visibility
-- 
+- When visibility is set to none, space for the element is reserved.
