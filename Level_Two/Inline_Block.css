@@ -1,0 +1,18 @@
+div {
+    height: 80px;
+    width: 80px;
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid black;
+}
+.case1 {
+    background-color: rebeccapurple;
+}
+.case2 {
+    background-color: greenyellow;
+    display: inline;
+}
+.case3 {
+    background-color:crimson;
+    display: inline-block;
+}
