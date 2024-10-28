@@ -1,0 +1,14 @@
+#parent_box {
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+#child_box {
+    background-color: yellow;
+    height: 50px;
+    width: 30%; 
+    margin-left: 10%;
+    font-size: 2em; /*2 times of parent font size : 10*2 = 20px*/
+    width: 5em; /*5 times of font-size : 5*2 = 100px*/
+ }
