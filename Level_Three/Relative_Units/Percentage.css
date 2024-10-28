@@ -1,0 +1,11 @@
+#parent_box {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+#child_box {
+    background-color: green;
+    height: 50px;
+    width: 30%; 
+    margin-left: 10px;
+}
