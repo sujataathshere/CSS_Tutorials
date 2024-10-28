@@ -20,4 +20,23 @@
     ```
     3. Rem(Root Em)
     - Font size of the root element
-    
+    ```css
+    #box {
+        font-size: 2em; /*2 times of parent font size : 10*2 = 20px*/
+        width: 5rem; /*5 times of body(default size) font-size : 5*16 = 80px*/
+    }
+    ```
+    4. vh
+    - Relative to 1% viewport(browser) height
+    ```css
+    #box {
+    height: 40vh;/*40% of height of Screen size*/
+    }
+    ```
+    5. vw
+    - Relative to 1% viewport(browser) width
+    ```css
+    #box {
+    width: 30vw;/*30% of width of Screen size*/
+    }
+    ```

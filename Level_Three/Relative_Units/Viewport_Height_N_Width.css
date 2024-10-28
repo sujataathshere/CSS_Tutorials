@@ -1,0 +1,14 @@
+#parent_box {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    font-size: 10px;
+}
+#child_box {
+    background-color: yellow;
+    width: 30%; 
+    margin-left: 10%;
+    font-size: 2em; 
+    height: 40vh;/*40% of height of Screen size*/
+    width: 30vw;/*30% of width of Screen size*/
+ }
