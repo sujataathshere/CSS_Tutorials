@@ -44,10 +44,9 @@
 - This position CSS property sets how an element is positioned in a document.
 1. Static : top / right / bottom / left / z-index
 - default position (The top, tight, bottom, left, & z-index properties have no effect)
-
-* z-index
-- It decides the stack level of elements
-- Overlapping elements with a larger z-index cover those with a smaller one.
+    1. z-index
+    - It decides the stack level of elements
+    - Overlapping elements with a larger z-index cover those with a smaller one.
 
 2. Relative
 - Element is relative to itself. (The top, right, bottom, left, & z-index will work)
