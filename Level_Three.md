@@ -40,3 +40,23 @@
     width: 30vw;/*30% of width of Screen size*/
     }
     ```
+## Position Property : static / relative / absolute / fixed
+- This position CSS property sets how an element is positioned in a document.
+1. Static : top / right / bottom / left / z-index
+- default position (The top, tight, bottom, left, & z-index properties have no effect)
+
+* z-index
+- It decides the stack level of elements
+- Overlapping elements with a larger z-index cover those with a smaller one.
+
+2. Relative
+- Element is relative to itself. (The top, right, bottom, left, & z-index will work)
+
+3. Absolute
+- Positioned relative to its closest positioned(non-static) ancestor. (removed from the flow)
+
+4. Fixed
+- Positioned relative to browser. (removed from flow)
+
+5. Sticky
+- Positioned based on user's scroll position
