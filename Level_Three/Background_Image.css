@@ -7,16 +7,17 @@ div {
 #box1 {
     background-color: red;
     background-image: url("Cat_Image.jpg");
-    background-size: cover;
 }
 #box2 {
     background-color: green;
     background-image: url("Cat_Image.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 #box3 {
     background-color: yellow;
+    background-image: url("Cat_Image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #box4 {
     background-color: blue;
