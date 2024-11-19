@@ -86,7 +86,7 @@ background-image:url("image.jpeg");
 background-size:cover;
 ```
 2. Contain
-- Cover whole area & display whole image also
+- Cover whole area & display whole image also.
 - Image will be repeated on remaining space
 ```css
 background-size:cover;
