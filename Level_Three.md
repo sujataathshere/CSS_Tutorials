@@ -64,6 +64,31 @@
 - It decides the stack level of elements
 - Overlapping elements with a larger z-index cover those with a smaller one.
 - By default z-index is zero
-z-index: auto(0) - It depends on position/How u wrote in code
-z-index: 1/2/3... - Used for Over
-z-index: -1/-2/-3... - Used for Under
+```css
+z-index: auto(0) /*It depends on position/How u wrote in code*/
+z-index: 1/2/3... /*Used for Over*/
+z-index: -1/-2/-3... /*Used for Under*/
+```
+
+## Background Image
+- Used to set an image as background
+- unsplash.com
+```css
+background-image:url("image.jpeg");
+```
+
+## Background Size : cover / contain / auto
+1. Cover
+- Completely fit the picture / no spaces available
+- Image gets enlarge bt not repeated
+- Image may not display completely bt no spaces will be available on selected area
+```css
+background-size:cover;
+```
+2. Contain
+- Cover whole area & display whole image also
+- Image will be repeated on remaining space
+```css
+background-size:cover;
+background-repeat:no-repeat;
+```
