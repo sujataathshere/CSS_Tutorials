@@ -42,11 +42,11 @@
     ```
 ## Position Property : static / relative / absolute / fixed
 - This position CSS property sets how an element is positioned in a document.
-1. Static : top / right / bottom / left / z-index
+- Main position : static / relative / absolute / fixed
+
+1. Static
 - default position (The top, tight, bottom, left, & z-index properties have no effect)
-    1. z-index
-    - It decides the stack level of elements
-    - Overlapping elements with a larger z-index cover those with a smaller one.
+- top / right / bottom / left properties not working in static
 
 2. Relative
 - Element is relative to itself. (The top, right, bottom, left, & z-index will work)
@@ -59,3 +59,11 @@
 
 5. Sticky
 - Positioned based on user's scroll position
+
+## z-index
+- It decides the stack level of elements
+- Overlapping elements with a larger z-index cover those with a smaller one.
+- By default z-index is zero
+z-index: auto(0) - It depends on position/How u wrote in code
+z-index: 1/2/3... - Used for Over
+z-index: -1/-2/-3... - Used for Under
