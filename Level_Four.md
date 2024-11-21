@@ -8,7 +8,7 @@
 - flex-direction property used for container not for items.
 - 
 ```css
-flex-direction:row;(default Left To Right)
+flex-direction:row; (default Left To Right)
 flex-direction:row-reverse; (Right To Left)
 flex-direction:column; (Top To Bottom)
 flex-direction:column-reverse; (Bottom To Top)
