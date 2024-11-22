@@ -18,7 +18,7 @@ flex-direction:column-reverse; (Bottom To Top)
 - flex-start / flex-end / centre / space-evenly /
 2. flex-wrap : nowrap / wrap / wrap-reverse
 3. align-items : alignment along the cross axis.
-4. align-content : alignment of space between & around the content a
+4. align-content : alignment of space between & around the content along cross-axis
 
 ## Flex Properties (for Flex Item)
 1. align-self : alignment of individual along the cross axis

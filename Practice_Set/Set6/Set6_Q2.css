@@ -1,0 +1,18 @@
+#outer{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* To move the items from left to right we use justify-content */
+    align-items: center;
+    /* To move the items from top to bottom we use align-items */
+}
+#inner{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: yellow;
+}
