@@ -3,8 +3,8 @@
 ## Q2. Use flexbox to center one div inside another div.
 
 ## Q3. Which has higher priority align-items or align-self?
-* align-items
+1. align-items
 - It applies on container
-* align-self
+2. align-self
 - It applies on indivisual flex item
 - It has indivisual higher priority, If we wright property at the starting / at the ending does not matter for this property
