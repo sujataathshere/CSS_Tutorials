@@ -24,3 +24,13 @@ flex-direction:column-reverse; (Bottom To Top)
 1. align-self : alignment of individual along the cross axis
 2. flex-grow : how much a flex item will grow relative to the rest of the flex items if space is available
 3. flex-shrink : how much a flex item will shrink relative to the rest of the space is available
+
+## Media Queries
+- It helps to create a responsive website
+```css
+@media(width : 600px){
+    div{
+        background-color : red;
+    }
+}
+```

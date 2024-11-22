@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+}
+@media(width : 700px){
+    div{
+        background-color: purple;
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color: plum;
+    }
+}
+@media(min-width : 300px) and (max-width : 500px){
+    div{
+        background-color: palegreen;
+    }
+}
