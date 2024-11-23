@@ -27,6 +27,7 @@ flex-direction:column-reverse; (Bottom To Top)
 
 ## Media Queries
 - It helps to create a responsive website
+- Mostly used with width
 ```css
 @media(width : 600px){
     div{

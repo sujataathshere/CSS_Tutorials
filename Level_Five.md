@@ -27,3 +27,10 @@ div:hover{
     font-size: 20px;
 }
 ```
+2. Active
+- It applies to an element that is currently being activated by the user, such as when a button is clicked.
+```css
+div:active{
+    background-color: darkolivegreen;
+}
+```
