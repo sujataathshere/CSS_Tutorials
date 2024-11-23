@@ -7,13 +7,33 @@
 - While going to from 1 state to another state we apply some transition to show how changes happens/convert a state
 1. transition-property
 - property you want to transition (font-size, width, etc.)
+```css
+div{
+    transition-property: all;
+    /* Apply on all the transition property */
+}
+```
 2. transition-duration
 - 2s / 4ms..
+```css
+div{
+    transition-duration: 2s;
+}
+```
 3. transition-timing-function
 - ease-in / ease-out / linear / steps..
+```css
+div{
+    transition-timing-function:steps(3);
+}
+```
 4. transition-delay
 - 2s / 4ms..
-
+```css
+div{
+    transition-delay:
+}
+```
 ## Pseudo Class
 - It is used to define different states.
 - Eg. hover, active, focus, visited, etc.
