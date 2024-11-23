@@ -68,10 +68,21 @@ div:active{
 - rotate, rotateX, rotateY, rotateZ.
 ```css
 div{
-    trandform:rotate(45deg);
+    transform:rotate(45deg);
     /* OR */
     rotate:45deg;
 }
 ```
 2. Scale
 - scale, scaleX, scaleY. 
+```css
+div{
+    transform:scale(2);
+    /* It will change according both x/y axis */
+
+    transform:scale(1, 2);
+    /* Value should be same along x-axis bt 
+       Value should be change/double along y-axis
+    */
+}
+```
