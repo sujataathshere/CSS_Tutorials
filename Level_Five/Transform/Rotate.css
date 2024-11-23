@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    /* Above property used to create a box. */
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    /* Above property used to give a position */
+    transition: all;
+    transition-duration: 5s;
+    /* Above property used to give a time duration so we sea the changes */
+    /* transform: rotate(360deg); */
+    rotate: 360deg;
+    /* Above property used to to rotate a box by 360 degree with 5s time duration */
+    
+}
+div:hover{
+    background-color: blue;
+}

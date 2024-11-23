@@ -1,4 +1,4 @@
-- Lerned transition / transform / animation
+- Learned transition / transform / animation
 - rotate in 2d / 3d space
 - change size / effects
 
@@ -42,7 +42,7 @@ div{
     transition : font-size 2s ease-in-out 0.2s;
 }
 ```
-## Pseudo Class
+## Pseudo Classes
 - It is used to define different states.
 - Eg. hover, active, focus, visited, etc.
 1. Hover
@@ -62,3 +62,16 @@ div:active{
     background-color: darkolivegreen;
 }
 ```
+## CSS Transform
+- Used to apply 2D & 3D transformations to an element
+1. Rotate
+- rotate, rotateX, rotateY, rotateZ.
+```css
+div{
+    trandform:rotate(45deg);
+    /* OR */
+    rotate:45deg;
+}
+```
+2. Scale
+- scale, scaleX, scaleY. 
