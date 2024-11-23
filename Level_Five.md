@@ -29,9 +29,17 @@ div{
 ```
 4. transition-delay
 - 2s / 4ms..
+- Defines when the transition will start. It allows a transition to begin execution some period of time from when it is applied.
 ```css
 div{
-    transition-delay:
+    transition-delay:1s;
+}
+```
+## Transition Shorthand
+- property name | duration | timing-function | delay
+```css
+div{
+    transition : font-size 2s ease-in-out 0.2s;
 }
 ```
 ## Pseudo Class
