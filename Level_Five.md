@@ -4,7 +4,7 @@
 
 ## Transitions
 - Transitions enables you to define the transition between two states of an element.
-- While going to from 1 state to another state we apply some transition
+- While going to from 1 state to another state we apply some transition to show how changes happens/convert a state
 1. transition-property
 - property you want to transition (font-size, width, etc.)
 2. transition-duration
