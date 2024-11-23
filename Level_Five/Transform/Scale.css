@@ -5,17 +5,18 @@ div{
     background-color: blueviolet;
     /* Above property used to create a box. */
     position: absolute;
-    top: 300px;
-    left: 150px; 
+    top: 200px;
+    left: 100px; 
     /* Above property used to give a position */
-    transition: all;
-    transition-duration: 5s;
+    transition: all 2s ease-in;
     /* Above property used to give a time duration so we sea the changes */
-    transform: rotate(360deg) scale(2);
+    
+    /* transform: rotate(360deg) scale(2); */
     /* transform: scale(2); */
     /* Above property used to increase/decrease a box size by scale(2) with 5s time duration */
     
 }
 div:hover{
     background-color: blue;
+    transform: scale(2);
 }

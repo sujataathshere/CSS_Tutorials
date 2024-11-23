@@ -86,3 +86,16 @@ div{
     */
 }
 ```
+3. Translate
+- translate, translateX, translateY.
+```css
+div{
+    transform:translate(20px);
+    /*  */
+    transform:translate(20px, 50px);
+    /* */
+    transform:translateX(20px);
+    transform:translateY(20px);
+    /*  */
+}
+```
