@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    /* Above properties used to create a box */
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    /* animation-name: positionAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal; */
+    animation:positionAnimate 2s linear 0s infinite normal
+}
+@keyframes positionAnimate {
+    from{left: 0px;}
+    to{left: 500px;}
+}

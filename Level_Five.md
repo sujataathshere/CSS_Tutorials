@@ -170,3 +170,10 @@ div{
     animation-direction: inherit;
 }
 ```
+## Animation Shorthand
+- name|duration|timing-function|delay|iteration-count|direction
+```css
+div{
+    animation:myName 2s linear 3s infinite normal
+}
+```
