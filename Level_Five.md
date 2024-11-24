@@ -93,9 +93,21 @@ div{
     transform:translate(20px);
     /*  */
     transform:translate(20px, 50px);
-    /* */
+    /* Move along with x axis with 20px and y axis with 50px*/
     transform:translateX(20px);
     transform:translateY(20px);
-    /*  */
+    /* Move along with x And y axis */
+}
+```
+4. Skew
+- It is mixture of different effects. 
+```css
+div{
+    transform:skew(45deg);
+    /* From 2 corners streching by 45 degree */
+    transform:skewX(45deg);
+    /* From 2 corners streching by 45 degree */
+    transform:skewY(45deg);
+    /* From 2 corners streching by 45 degree */
 }
 ```

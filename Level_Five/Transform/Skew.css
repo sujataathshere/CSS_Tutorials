@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    /* Above property used to create a box. */
+    position: absolute;
+    top: 150px;
+    left: 100px; 
+    /* Above property used to give a position */
+
+    /* transition: all 2s ease-in; */
+    transition: all;
+    transition-duration: 2s;
+    /* Above property used to give a time duration so we sea the changes */    
+}
+div:hover{
+    background-color: blue;
+    /* transform:skew(45deg); */
+    /* From 2 corners streching by 45 degree */
+    
+    /* transform:skewX(45deg); */
+    /* From 2 corners streching by 45 degree along with x axis */
+
+    transform:skewY(45deg);
+    /* From 2 corners streching by 45 degree along with y axis */
+}
