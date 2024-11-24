@@ -9,22 +9,22 @@ div{
     top: 50px;
     left: 50px;
 
-    /* animation-name: positionAnimate;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction:normal; */
     animation:positionAnimate 4s linear 0s infinite normal
 }
 @keyframes positionAnimate {
-    from {
+    0% {
         left: 0px;
-        background-color: aquamarine;
+        background-color: red;
+        font-size: 10px;
     }
-    to {
+    50% {
+        background-color: green;
+        font-size: 15px;
+    }
+    100% {
         left: 500px;
-        background-color: blueviolet;
+        background-color: blue;
+        font-size: 20px;
         color: white;
     }
 }

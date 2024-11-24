@@ -174,6 +174,15 @@ div{
 - name|duration|timing-function|delay|iteration-count|direction
 ```css
 div{
-    animation:myName 2s linear 3s infinite normal
+    animation:myName 2s linear 3s infinite normal;
+}
+```
+## % in Animation
+- We can add many steps through %
+```css
+@keyframe myName{
+    0%{font-size: 20px;}
+    50%{font-size: 30px;}
+    100%{font-size: 40px;}
 }
 ```
