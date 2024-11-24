@@ -3,8 +3,9 @@
 - change size / effects
 
 * Website 
-- coolors.co
-- fontawesome.com
+- coolors.co : Used for color plate
+- fontawesome.com : Used for icon
+- https://cdnjs.com/libraries/font-awesome : to add css file link
 
 ## Transitions
 - Transitions enables you to define the transition between two states of an element.
@@ -191,3 +192,4 @@ div{
     100%{font-size: 40px;}
 }
 ```
+## Icon
