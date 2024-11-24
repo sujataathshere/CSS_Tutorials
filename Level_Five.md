@@ -2,6 +2,10 @@
 - rotate in 2d / 3d space
 - change size / effects
 
+* Website 
+- coolors.co
+- fontawesome.com
+
 ## Transitions
 - Transitions enables you to define the transition between two states of an element.
 - While going to from 1 state to another state we apply some transition to show how changes happens/convert a state
@@ -138,6 +142,7 @@ div{
 ```
 3. animation-timing-function
 - Used to show slow/fast/in-steps animation
+- linear | ease-in-out | steps | cubic-bezier
 ```css
 div{
     animation-timing-function: ease-in;
@@ -159,7 +164,7 @@ div{
 }
 ```
 6. animation-direction
-- normal/reverse/alternate/alternate-reverse
+- normal | reverse | alternate | alternate-reverse
 ```css
 div{
     /* Single Animation */
