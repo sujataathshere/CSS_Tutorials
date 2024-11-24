@@ -111,3 +111,62 @@ div{
     /* From 2 corners streching by 45 degree */
 }
 ```
+## Animation
+- To animate CSS elements
+- This is a animation template
+```css
+@keyframe myName {
+    from{font-size:20px;}
+    to{font-size:40px;}
+}
+```
+## Animation Properties
+- To apply animation we used animation properties
+1. animation-name
+- Ued to give animation name
+```css
+div{
+    animation-name:colorAnimate;
+}
+```
+2. animation-duration
+- Used to show animation time duration
+```css
+div{
+    animation-duration: 3s;
+}
+```
+3. animation-timing-function
+- Used to show slow/fast/in-steps animation
+```css
+div{
+    animation-timing-function: ease-in;
+}
+```
+4. animation-delay
+- After how much time animation should display
+```css
+div{
+    animation-delay: 1s;
+}
+```
+5. animation-iteration-count
+- How many times should my animation apply
+- 1/2/3.../infinite
+```css
+div{
+    animation-iteration-count: 5 ;
+}
+```
+6. animation-direction
+- normal/reverse/alternate/alternate-reverse
+```css
+div{
+    /* Single Animation */
+    animation-direction: normal;
+    /* Multiple Animation */
+    animation-direction: normal, reverse;
+    /* Global values */
+    animation-direction: inherit;
+}
+```
