@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 /* Box1 - Logo */
 .nav-logo{
@@ -21,10 +22,12 @@
     width: 100%;
     background-size:cover;
 }
-/*  */
+/* Border */
 .border{
     border: 1.5px solid transparent;
     border-radius:2%;
+    /* margin: 2px;
+    padding: 2px; */
 }
 .border:hover{
     border: 1.5px solid white;
@@ -44,4 +47,35 @@
     color: #FFFFFF;
     margin-left: 3px;
 }
-/*  */
+/* Box3 - Search bar */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.search-select{
+    width: 50px;
+    background-color: #E6E6E6;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+}
+.search-input{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FEBD68;
+    color: #0F1111;
+}
