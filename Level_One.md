@@ -80,15 +80,25 @@ p {
 }
 ```
 ## Text Properties
-1. text-align : left, center, right.
-2. text-decoration : underline, overline, line-through, none, wavy, dotted.
-3. font-weight : normal/bold/bolder/lighter OR 100-900
+1. text-align 
+- left | center | right.
+2. text-decoration 
+- underline | overline | line-through | none | wavy | dotted.
+3. font-weight 
+- normal | bold | bolder | lighter OR 100-900
 - Normal/lighter:100, Bold:600, Bolder:900
 4. font-family
 - 5 Generic font families : Serif, Sans-serif, Cursive, Fantasy, Monospace
-5. font-size : Absolute Unit & Relative Unit
+```css
+.font_family{
+    font-family: Arial;
+}
+```
+5. font-size 
+- Absolute Unit & Relative Unit
 - Absolute Unit measure in pixels(px), km, cm, mm.
 - Nomal size of text : 16px
 - Relative Unit
 6. line-height
-7. text-transform : uppercase, lowercase, capitalize, none.
+7. text-transform 
+- uppercase | lowercase | capitalize | none.

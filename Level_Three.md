@@ -40,7 +40,7 @@
     width: 30vw;/*30% of width of Screen size*/
     }
     ```
-## Position Property : static / relative / absolute / fixed
+## Position Property : static | relative | absolute | fixed
 - This position CSS property sets how an element is positioned in a document.
 - Main position : static / relative / absolute / fixed
 
@@ -53,7 +53,13 @@
 
 3. Absolute
 - Positioned relative to its closest positioned(non-static) ancestor. (removed from the flow)
-
+```css
+div{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+```
 4. Fixed
 - Positioned relative to browser. (removed from flow)
 
@@ -77,7 +83,7 @@ z-index: -1/-2/-3... /*Used for Under*/
 background-image:url("image.jpeg");
 ```
 
-## Background Size : cover / contain / auto
+## Background Size : cover | contain | auto
 1. Cover
 - Completely fit the picture / no spaces available
 - Image gets enlarge bt not repeated
@@ -89,6 +95,6 @@ background-size:cover;
 - Cover whole area & display whole image also.
 - Image will be repeated on remaining space
 ```css
-background-size:cover;
+background-size:Contain;
 background-repeat:no-repeat;
 ```

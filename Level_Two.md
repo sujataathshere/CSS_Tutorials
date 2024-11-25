@@ -28,6 +28,8 @@ div {
     border:border-box;
     /* 1. Property for setting border width, style, & color.
        2. Border size of an element should be count in height/width (inside the box not outside the box)
+       3. If we increase the border/padding contents get shrink
+       4. Its a good practice to use
     */
 ```
 4. Padding
