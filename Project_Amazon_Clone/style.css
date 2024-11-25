@@ -79,3 +79,11 @@
     background-color: #FEBD68;
     color: #0F1111;
 }
+/* Box4 - Sign in */
+.signin-first{
+    font-size: 0.7rem;
+}
+.signin-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
