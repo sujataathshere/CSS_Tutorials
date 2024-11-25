@@ -24,6 +24,11 @@ div {
     border:2px solid brown;
     border-radius:10px;
     border-radius:50%;
+    
+    border:border-box;
+    /* 1. Property for setting border width, style, & color.
+       2. Border size of an element should be count in height/width (inside the box not outside the box)
+    */
 ```
 4. Padding
 -

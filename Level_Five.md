@@ -2,7 +2,7 @@
 - rotate in 2d / 3d space
 - change size / effects
 
-* Website 
+## Website 
 - coolors.co : Used for color plate
 - fontawesome.com : Used for icon
 - https://cdnjs.com/libraries/font-awesome : to add css file link
