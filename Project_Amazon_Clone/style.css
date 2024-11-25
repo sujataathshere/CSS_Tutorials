@@ -5,32 +5,43 @@
 }
 .navbar{
     height: 60px;
-    width: 100%;
     background-color: #0F1111;
     color: white;
-    text-align: center;
     display: flex;
+    align-items: center;
 }
+/* Box1 - Logo */
 .nav-logo{
     height: 50px;
     width: 100px;
-    margin: 0px 0px 0px 1px;
-    padding: 2px;
 }
 .logo{
     background-image: url("Images/Amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size:cover;
-    margin: 1px;
 }
+/*  */
 .border{
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
+    border-radius:2%;
 }
 .border:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
 }
-.nav-address{
-    height: 50px;
-    width: 90px;
+/* Box2 - Address */
+.add-first{
+    font-size: 0.85rem; /* rem - If width gets decrease font size also gets decrese*/
+    color: #CCCCCC;
+    margin-left: 15px;
 }
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    font-size: 1 rem;
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+/*  */
