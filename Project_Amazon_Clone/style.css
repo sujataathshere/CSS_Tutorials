@@ -56,6 +56,9 @@
     width: 900px;
     border-radius: 4px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .search-select{
     width: 50px;
     background-color: #E6E6E6;
@@ -100,18 +103,42 @@
     font-weight: 700;
 }
 /* Box7 - Cart */
+/* i -> I wanna use styling who only applying on icon which is inside nav-cart class */
+.nav-cart i{
+    font-size: 30px;
+}
 .nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*  */
+.panel{
+    height: 40px;
+    color: white;
+    background-color: #3a3b3b;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.cart-icon{
-    font-size: 1.6rem;
+.panel-all{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
-.cart-second{
-    display: flex;
-    align-items: flex-end;
-    font-size: 0.90rem;
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
 }
-/* Speudo Classes */
-.nav-language:hover{
-    
+.panel-ops{
+    width: 80%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* Hero Section */
+.hero-section{
+    background-image: url(Images/Hero_Image1.jpg);
+    height: 600px;
+    background-size: cover;
 }
