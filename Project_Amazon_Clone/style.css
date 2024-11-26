@@ -139,6 +139,22 @@
 /* Hero Section */
 .hero-section{
     background-image: url(Images/Hero_Image1.jpg);
-    height: 600px;
+    height: 400px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    height: 40px;
+    width: 95%;
+    background-color: #F5F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 0.85rem;
+    margin-bottom: 105px;
+}
+.hero-message a{
+    color: #007185;
 }
