@@ -11,7 +11,17 @@
     align-items: center;
     justify-content: space-evenly;
 }
-/* Box1 - Logo */
+/* Border */
+.border{
+    border: 1.5px solid transparent;
+    border-radius:2%;
+    margin: 5px 2px 5px 0px;
+    padding: 0 9px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* Box1 - Amazon Logo */
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -22,17 +32,7 @@
     width: 100%;
     background-size:cover;
 }
-/* Border */
-.border{
-    border: 1.5px solid transparent;
-    border-radius:2%;
-    /* margin: 2px;
-    padding: 2px; */
-}
-.border:hover{
-    border: 1.5px solid white;
-}
-/* Box2 - Address */
+/* Box2 - Address | Location */
 .add-first{
     font-size: 0.85rem; /* rem - If width gets decrease font size also gets decrese*/
     color: #CCCCCC;
@@ -53,7 +53,7 @@
     justify-content: space-evenly;
     background-color: pink;
     height: 40px;
-    width: 620px;
+    width: 900px;
     border-radius: 4px;
 }
 .search-select{
@@ -79,11 +79,39 @@
     background-color: #FEBD68;
     color: #0F1111;
 }
-/* Box4 - Sign in */
+/* Box4 - Language */
+.nav-language{
+    display: flex;
+    align-items: center;
+}
+.flag{
+  margin-right: 3px;
+}
+.arrow{
+    width: 8px;
+    margin: 6px 0 0 2px;
+}
+/* Box5/6 - Sign in + Orders */
 .signin-first{
     font-size: 0.8rem;
 }
 .signin-second{
     font-size: 0.90rem;
     font-weight: 700;
+}
+/* Box7 - Cart */
+.nav-cart{
+    display: flex;
+}
+.cart-icon{
+    font-size: 1.6rem;
+}
+.cart-second{
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.90rem;
+}
+/* Speudo Classes */
+.nav-language:hover{
+    
 }
