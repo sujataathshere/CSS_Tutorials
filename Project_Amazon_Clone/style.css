@@ -136,7 +136,11 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
-/** Hero Section **/
+/** Body Section **/
+body{
+    background-color: #E2E7E6;
+}
+/* Hero Section  */
 .hero-section{
     background-image: url(Images/Hero_Image1.jpg);
     height: 400px;
@@ -177,15 +181,13 @@
     color: black;
 }
 /* Shopping Section */
-.shop-section{
+.layout-section{
     height: 900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
 }
 .box{
-    /* border: 2px solid black; */
     height: 418px;
     width: 23%;
     background-color: white;
@@ -205,6 +207,25 @@
 }
 .box-content a{
    color: #007185;
+}
+.scroll-section{
+    background-color: white;
+    margin: 70px 20px 10px 20px;
+}
+.scroll-block{
+    overflow: auto;
+    white-space: nowrap;
+}
+.scroll-block a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.scroll-img{
+    height: 200px;
+    width: 200px;
 }
 /** Footer Section **/
 footer{
