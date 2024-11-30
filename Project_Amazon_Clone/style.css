@@ -21,7 +21,7 @@
 .border:hover{
     border: 1.5px solid white;
 }
-/* Box1 - Amazon Logo */
+/* Amazon Logo */
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -32,7 +32,7 @@
     width: 100%;
     background-size:cover;
 }
-/* Box2 - Address | Location */
+/* Address | Location */
 .add-first{
     font-size: 0.85rem; /* rem - If width gets decrease font size also gets decrese*/
     color: #CCCCCC;
@@ -47,7 +47,7 @@
     color: #FFFFFF;
     margin-left: 3px;
 }
-/* Box3 - Search bar */
+/* Search bar */
 .nav-search{
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +82,7 @@
     background-color: #FEBD68;
     color: #0F1111;
 }
-/* Box4 - Language */
+/* Language */
 .nav-language{
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@
     width: 8px;
     margin: 6px 0 0 2px;
 }
-/* Box5/6 - Sign in + Orders */
+/* Sign in + Orders */
 .signin-first{
     font-size: 0.8rem;
 }
@@ -102,7 +102,7 @@
     font-size: 0.90rem;
     font-weight: 700;
 }
-/* Box7 - Cart */
+/* Cart */
 /* i -> I wanna use styling who only applying on icon which is inside nav-cart class */
 .nav-cart i{
     font-size: 30px;
@@ -136,7 +136,7 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
-/* Hero Section */
+/** Hero Section **/
 .hero-section{
     background-image: url(Images/Hero_Image1.jpg);
     height: 400px;
@@ -144,6 +144,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+.hero-arrow-left{
+    color: white;
+    font-size: 52px;
+    height: 250px;
+    margin: 0 0 35px 50px;
+}
+.hero-arrow-left:hover{
+    color: black;
 }
 .hero-message{
     height: 40px;
@@ -157,6 +166,15 @@
 }
 .hero-message a{
     color: #007185;
+}
+.hero-arrow-right{
+    color: white;
+    font-size: 52px;
+    height: 250px;
+    margin: 0 50px 35px 0;
+}
+.hero-arrow-right:hover{
+    color: black;
 }
 /* Shopping Section */
 .shop-section{
