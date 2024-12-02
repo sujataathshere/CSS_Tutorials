@@ -208,6 +208,7 @@ body{
 .box-content a{
    color: #007185;
 }
+/* Scroll bar */
 .scroll-section{
     background-color: white;
     margin: 70px 20px 10px 20px;
@@ -227,6 +228,33 @@ body{
     height: 200px;
     width: 200px;
 }
+/* Signin Frame */
+.signin-frame{
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.signin-container{
+    height: 150px;
+    width: 100%;
+    border: 1.5px solid lightslategray;
+    padding-top: 50px;
+}
+.signin-button{
+    background-color: yellow;
+    height: 28px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.signin-container span,p{
+    font-size: 11px;
+}
 /** Footer Section **/
 footer{
     margin-top: 50px;
@@ -242,9 +270,6 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-}
-.text:active{
-
 }
 /* panel 2 */
 .foot-panel2{
