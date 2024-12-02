@@ -213,6 +213,11 @@ body{
     background-color: white;
     margin: 70px 20px 10px 20px;
 }
+.title-block{
+    padding-top: 20px;
+    padding-left: 15px;
+    display: flex;
+}
 .scroll-block{
     overflow: auto;
     white-space: nowrap;
@@ -227,6 +232,11 @@ body{
 .scroll-img{
     height: 200px;
     width: 200px;
+    background-size: cover;
+}
+.scroll-section2{
+    background-color: white;
+    margin: 20px 20px 10px 20px;
 }
 /* Signin Frame */
 .signin-frame{
